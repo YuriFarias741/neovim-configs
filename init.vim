@@ -9,6 +9,7 @@ Plug 'w0rp/ale'
 Plug 'jiangmiao/auto-pairs'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'roxma/nvim-completion-manager'
 call plug#end()
 
 colorscheme gruvbox
@@ -28,3 +29,5 @@ nnoremap <c-f> :Ag<space>
 
 let g:UltiSnipsEditSplit = 'vertical'
 let g:UltiSnipsSnippetsDir = '~/.config/nvim/UltiSnips'
+
+let g:python3_host_prog='/usr/bin/python3'
